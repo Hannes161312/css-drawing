@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 3rem;
+}
+
+.eye{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+.pupille{
+    background-color: black;
+    padding: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+.highlight{
+    background-color: #ffffff;
+    height: 2rem;
+    width: 1rem;
+    position: relative;
+    margin-right: 0%;
+}
+#lefteye{
+    position: absolute;
+    left: 12rem;
+    top: 12rem;
+}
+#righteye{
+    position: absolute;
+    left: 26rem;
+    top: 12rem;
+}
+.headbase{
+    clip-path: polygon(91.12% 55.28%, 80.9% 27.05%, 80.9% 0%, 55.4% 14.71%, 30.35% 14.71%, 7.95% 0%, 7.82% 27.05%, 0% 55.28%, 45.56% 71.78%);
+    background-color: #000000;
+    width: 40rem;
+    height: 35rem;
+    position: absolute;
+    left: 3.75rem;
+    top: 1rem;
+}
+.nose{
+    background-color: #ffffff;
+    height: 8rem;
+    width: 2rem;
+}
+#noseleft{
+    transform: rotate(5deg);
+    position: absolute;
+    left: 19.5rem;
+    top: 11rem;
+    }
+#noseright{
+    transform: rotate(-5deg);
+    position: absolute;
+    left: 21.5rem;
+    top: 11rem;
+}
+#nosecenter{
+    position: absolute;
+    left: 20.5rem;
+    top: 11rem;
+}
+#eyebrowlefttop{
+    background-color: #ffffff;
+    height: 3rem;
+    width: 9rem;
+    position: absolute;
+    left: 10rem;
+    top: 7.5rem;
+}
+#eyebrowrighttop{
+    background-color: #ffffff;
+    height: 3rem;
+    width: 9rem;
+    position: absolute;
+    left: 24rem;
+    top: 7.5rem;
+}
+
+#eyebrowleftbottom{
+    clip-path: polygon(100% 13%, 0% 100%, 100% 41%);
+    background-color: #ffffff;
+    height: 11rem;
+    width: 10rem;
+    position: absolute;
+    left: 0rem;
+    top: 6rem;
+    z-index: 1000;
+}
+
+#eyebrowrightbottom{
+    clip-path: polygon(0 14%, 100% 100%, 0 40%);
+    background-color: #ffffff;
+    height: 11rem;
+    width: 10rem;
+    position: absolute;
+    left: 33rem;
+    top: 6rem;
+    z-index: 1000;
+}
+
+#eyebrowcenter{
+    clip-path: polygon(50% 47%, 100% 0, 100% 84%, 75% 100%, 25% 100%, 0 82%, 0 0);
+    background-color: #ffffff;
+    height: 3.75rem;
+    width: 5rem;
+    position: absolute;
+    left: 19rem;
+    top: 7.5rem;
+    z-index: 1000;
+}
+
+#schnautze{
+    clip-path: polygon(50% 0%, 100% 30%, 50% 100%, 0% 30%);
+    background-color: #ffffff;
+    height: 8rem;
+    width: 34rem;
+    position: absolute;
+    left: 5rem;
+    top: 17.5rem;
+    z-index: 1000;
+}
+
+#nase{
+    clip-path: polygon(51% 59%, 100% 37%, 94% 17%, 7% 17%, 0% 38%);
+    background-color: #000000;
+    height: 8rem;
+    width: 10rem;
+    position: absolute;
+    left: 16.5rem;
+    top: 17.5rem;
+    z-index: 1000;
+}
+
+#mund{
+    clip-path: polygon(52% 91%, 52% 78%, 48% 78%, 48% 91%, 0 78%, 50% 100%, 100% 78%);
+    background-color: #000000;
+    height: 15rem;
+    width: 20rem;
+    position: absolute;
+    left: 11.5rem;
+    top: 9.5rem;
+    z-index: 1000;
+}
